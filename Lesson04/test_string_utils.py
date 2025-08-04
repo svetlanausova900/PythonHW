@@ -3,6 +3,7 @@ from string_utils import StringUtils
 
 string_utils = StringUtils()
 
+
 @pytest.mark.positive
 @pytest.mark.parametrize("input_str, expected", [
     ("home_work", "Home_work"),
