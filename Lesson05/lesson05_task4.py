@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 #Инициализация драйвера Firefox
 driver = webdriver.Firefox()
 
-#Переход на страницу
+
 driver.get("http://the-internet.herokuapp.com/login")
 
 #Находим поле ввода логина
@@ -18,7 +18,7 @@ input_field.send_keys("tomsmith")
 #Находим поле ввода пароля
 input_field = driver.find_element(By.CSS_SELECTOR, "input[type='password']")
     
-#Вводим текст "Sky"
+#Вводим текст "SuperSecretPassword!"
 input_field.send_keys("SuperSecretPassword!")
 
 search_locator = "button.radius"  
