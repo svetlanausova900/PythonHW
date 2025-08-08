@@ -25,5 +25,7 @@ search_locator = "button.radius"
 search_input = driver.find_element(By.CSS_SELECTOR, search_locator)
 search_input.send_keys(Keys.RETURN) 
 
-
 sleep(5)
+
+#Закрываем браузер
+driver.quit()
