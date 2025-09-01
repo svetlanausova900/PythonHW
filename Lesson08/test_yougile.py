@@ -7,7 +7,8 @@ base_url = "https://ru.yougile.com/api-v2"
 # авторизация
 def test_auth():
     creds = {
-    
+
+
     }
     resp = requests.post(base_url + '/auth/keys', json=creds)
     assert resp.json()["key"]
