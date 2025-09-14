@@ -13,7 +13,6 @@ from pages.ShopListPage import ShopList
 from pages.CartPage import Cart
 from pages.InputPage import Input
 
-
 @pytest.fixture
 def driver():
     """Создает и настраивает экземпляр WebDriver для тестов"""

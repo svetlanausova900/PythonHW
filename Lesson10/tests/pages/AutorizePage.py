@@ -9,7 +9,7 @@ class Autorize:
         """Инициализирует экземпляр класса с драйвером и настройками ожидания
         
         Args:
-            driver: WebDriver - экземпляр веб-драйвера
+            driver: WebDriver -  экземпляр веб-драйвера
         """
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)

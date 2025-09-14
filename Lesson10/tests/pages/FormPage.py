@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 class FormPage:
     """Класс для работы с формой заполнения данных"""
     
@@ -51,7 +50,7 @@ class FormPage:
 
     def get_field_class(self, field_id: str) -> str:
         """Возвращает CSS класс указанного поля формы
-        
+  
         Args:
             field_id: str - ID поля формы
             

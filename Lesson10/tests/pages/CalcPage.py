@@ -81,5 +81,4 @@ class CalcPage:
                 
         self.wait_for_result()
         return self.get_result()
-    
-    
+     
