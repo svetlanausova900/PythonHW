@@ -21,7 +21,7 @@ def driver():
     
     with allure.step("Максимизация окна браузера"):
         driver.maximize_window()
-    
+
     yield driver
     
     with allure.step("Завершение работы WebDriver"):

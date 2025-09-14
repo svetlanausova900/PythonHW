@@ -9,7 +9,7 @@ class Input:
         """Инициализирует экземпляр класса с драйвером, настройками ожидания и данными для заполнения
         
         Args:
-            driver: WebDriver -  экземпляр веб-драйвера
+            driver: WebDriver - экземпляр веб-драйвера
         """
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)

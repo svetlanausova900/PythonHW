@@ -1,13 +1,13 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as EC 
 
 class Autorize:
     """Класс для авторизации на сайте Saucedemo"""
     
     def __init__(self, driver) -> None:
-        """Инициализирует экземпляр класса с драйвером и настройками ожидания
-        
+        """Инициализирует  экземпляр класса с драйвером и настройками ожидания
+         
         Args:
             driver: WebDriver -  экземпляр веб-драйвера
         """

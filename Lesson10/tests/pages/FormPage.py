@@ -49,7 +49,7 @@ class FormPage:
                 By.CSS_SELECTOR, '[type="submit"]'))).click()
 
     def get_field_class(self, field_id: str) -> str:
-        """Возвращает CSS класс указанного поля формы
+        """Возвращает CSS класс  указанного поля формы
   
         Args:
             field_id: str - ID поля формы

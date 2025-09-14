@@ -10,7 +10,7 @@ class Cart:
         """Инициализирует экземпляр класса с драйвером и настройками ожидания
         
         Args:
-            driver: WebDriver -  экземпляр веб-драйвера
+            driver: WebDriver - экземпляр веб-драйвера
         """
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
@@ -23,7 +23,7 @@ class Cart:
         """Переходит в корзину покупок
         
         Returns:
-            Cart - текущий экземпляр класса для цепочки вызовов
+            Cart - текущий  экземпляр класса для цепочки вызовов
         """
         self.wait.until(
             EC.element_to_be_clickable(self.CART_BUTTON)
@@ -40,3 +40,4 @@ class Cart:
             EC.element_to_be_clickable(self.CHECKOUT_BUTTON)
         ).click()
         return self 
+

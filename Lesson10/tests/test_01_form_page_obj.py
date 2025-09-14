@@ -15,7 +15,7 @@ def driver():
     driver.quit()
 
 @allure.title("Тест процесса отправки формы")
-@allure.description("Тестирует полный процесс отправки формы: открытие, заполнение, отправка и проверка")
+@allure.description("Тестирует полный процесс  отправки формы: открытие, заполнение, отправка и проверка")
 @allure.feature("Форма отправки данных")
 @allure.severity(allure.severity_level.CRITICAL)
 def test_form_submission_flow(driver):

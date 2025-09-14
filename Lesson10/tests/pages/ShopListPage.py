@@ -45,7 +45,7 @@ class ShopList:
         """Переходит в корзину покупок
         
         Returns:
-            ShopList - текущий экземпляр класса для цепочки вызовов
+            ShopList - текущий  экземпляр класса для цепочки вызовов
         """
         self.click_element(*self.CART_BUTTON)
         return self

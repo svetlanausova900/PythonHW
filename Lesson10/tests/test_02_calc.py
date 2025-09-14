@@ -61,7 +61,7 @@ def test_calculation_with_delay(driver):
 
     with allure.step("Тест успешно пройден"):
         print("Тест пройден! Отображается правильное значение.")
-        allure.attach("Тест пройден успешно! Отображается правильное значение.", 
+        allure.attach("Тест  пройден успешно! Отображается правильное значение.", 
                      name="Статус теста", attachment_type=allure.attachment_type.TEXT)
 
 
