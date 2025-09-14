@@ -36,7 +36,7 @@ class ShopList:
     CART_BUTTON = (By.CLASS_NAME, 'shopping_cart_link')
     
     def add_items_to_cart(self) -> None:
-        """Добавляет все указанные товары в корзину"""
+        """Добавляет все указанные  товары в корзину"""
         self.click_element(*self.ADD_TO_CART_BACKPACK)
         self.click_element(*self.ADD_TO_CART_BOLT_TSHIRT)
         self.click_element(*self.ADD_TO_CART_ONESIE)

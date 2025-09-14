@@ -19,7 +19,6 @@ def driver():
         with allure.step("Закрытие браузера"):
             driver.quit()
 
-
 @allure.title("Тест калькулятора с задержкой")
 @allure.description("Тестирует работу калькулятора с установленной задержкой 45 секунд")
 @allure.feature("Калькулятор")
